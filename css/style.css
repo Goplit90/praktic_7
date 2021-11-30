@@ -1,0 +1,90 @@
+/* &display=swap 
+&subset=cyrillic-ext 
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	/* font-family: "Gilroy", sans-serif; */
+	line-height: 1;
+	font-family: "Roboto";
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 20px;
+	padding: 50px 0;
+}
+.whoweare {
+	padding: 0px 0px 170px 0px;
+}
+.whoweare_container {
+	max-width: 1020px;
+	margin: 0px auto;
+	border: 1px solid #000;
+	padding: 100px 87px 0px 87px;
+}
+.whoweare_content {
+}
+.whoweare_subtitle {
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	line-height: 27px;
+	text-transform: uppercase;
+	margin: 0px 0px 28px 0px;
+	padding: 0px 0px 0px 30px;
+}
+.whoweare_title {
+	color: #02133c;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	max-width: 583px;
+	margin: 0px 0px 33px 0px;
+}
+.whoweare_text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 52px 0px;
+}
+.whoweare_img {
+	margin: 0px 0px -120px 0px;
+}
+.whoweare_img img {
+	max-width: 100%;
+}
